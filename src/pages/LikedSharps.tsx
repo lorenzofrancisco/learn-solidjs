@@ -1,5 +1,8 @@
+import { createSignal } from "solid-js";
+
+const [likedSharps , setlikedSharps] = createSignal([]);
 const LikedSharps = () => {
-    return (
+  return (
     <div>
         <h1>Liked Sharps</h1>
     </div>
