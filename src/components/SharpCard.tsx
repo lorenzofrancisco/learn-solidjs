@@ -41,7 +41,7 @@ const SharpCard = ({ sharp }) => {
             class="btn btn-danger"
             onclick={() => unLikeSharp(sharp.project_title)}
           >
-            UnLike
+            Unlike
           </button>
         ) : (
           <button class="btn btn-primary" onclick={() => likeSharp(sharp)}>
